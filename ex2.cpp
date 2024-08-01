@@ -54,12 +54,12 @@ ofstream mergeArraysFromBin2Txt(ifstream* ifs, ifstream* ifs_1)
 }
 
 
-int main()
-{
-	ifstream ifs("binar.bin", ios::in | ios::binary);
-	ifstream ifs_1("binar1.bin", ios::in | ios::binary);
-	mergeArraysFromBin2Txt(&ifs, &ifs_1);
-
-	return 0;
-}
-
+//int main()
+//{
+//	ifstream ifs("binar.bin", ios::in | ios::binary);
+//	ifstream ifs_1("binar1.bin", ios::in | ios::binary);
+//	mergeArraysFromBin2Txt(&ifs, &ifs_1);
+//
+//	return 0;
+//}
+//
