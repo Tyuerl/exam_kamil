@@ -23,3 +23,21 @@ int binarySearch(int* mas, int n, int target) {
 
     return -1;  // Ёлемент не найден
 }
+
+
+//int main() {
+//    int mas[] = { 1, 3, 5, 7, 9, 11, 13, 15 };
+//    int n = sizeof(mas) / sizeof(mas[0]); // –азмер массива
+//    int target = 7;  // »скомый элемент
+//
+//    int result = binarySearch(mas, n, target);
+//
+//    if (result != -1) {
+//        std::cout << "Ёлемент " << target << " найден в массиве на позиции " << result << std::endl;
+//    }
+//    else {
+//        std::cout << "Ёлемент " << target << " не найден в массиве." << std::endl;
+//    }
+//
+//    return 0;
+//}

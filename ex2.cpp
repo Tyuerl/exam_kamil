@@ -35,13 +35,11 @@ ofstream mergeArraysFromBin2Txt(ifstream* ifs, ifstream* ifs_1)
 		}
 	}
 
-	// Добавление оставшихся элементов из первого массива, если есть
 	while (i < first.size()) {
 		end.push_back(first[i]);
 		++i;
 	}
 
-	// Добавление оставшихся элементов из второго массива, если есть
 	while (j < second.size()) {
 		end.push_back(second[j]);
 		++j;

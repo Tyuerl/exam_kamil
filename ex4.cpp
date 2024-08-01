@@ -19,3 +19,18 @@ bool isSubStr(char* s1, char* s2)
             return true;
     }
 }
+
+
+//int main() {
+//    char s1 [20] = "Hello, world!";
+//    char s2 [6]= "world";
+//
+//    if (isSubStr(s1, s2)) {
+//        std::cout << "Строка \"" << s2 << "\" является подстрокой строки \"" << s1 << "\"" << std::endl;
+//    }
+//    else {
+//        std::cout << "Строка \"" << s2 << "\" не является подстрокой строки \"" << s1 << "\"" << std::endl;
+//    }
+//
+//    return 0;
+//}

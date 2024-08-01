@@ -58,3 +58,28 @@ public:
         return front == nullptr;
     }
 };
+
+
+//int main() {
+//    Queue queue;
+//
+//    // ѕример использовани€ очереди
+//    queue.enqueue(10);
+//    queue.enqueue(20);
+//    queue.enqueue(30);
+//
+//    std::cout << "Ёлемент в начале очереди: " << queue.dequeue() << std::endl;
+//    std::cout << "Ёлемент в начале очереди: " << queue.dequeue() << std::endl;
+//
+//    if (queue.isEmpty()) {
+//        std::cout << "ќчередь пуста" << std::endl;
+//    }
+//    else {
+//        std::cout << "ќчередь не пуста" << std::endl;
+//    }
+//
+//    queue.enqueue(40);
+//    std::cout << "Ёлемент в начале очереди: " << queue.dequeue() << std::endl;
+//
+//    return 0;
+//}
